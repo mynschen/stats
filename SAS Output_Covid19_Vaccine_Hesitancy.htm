@@ -1,0 +1,3139 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<TITLE>SAS Output</TITLE>
+<META name=GENERATOR content="MSHTML 11.00.10570.1001">
+<META content="text/html; charset=Big5-HKSCS" http-equiv=Content-type>
+<STYLE type=text/css>.activelink {
+	COLOR: #800080
+}
+.aftercaption {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; PADDING-TOP: 4pt; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.batch {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; PADDING-BOTTOM: 7px; FONT-STYLE: normal; PADDING-TOP: 7px; PADDING-LEFT: 7px; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; PADDING-RIGHT: 7px; BACKGROUND-COLOR: #fafbfe
+}
+.beforecaption {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.body {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.bodydate {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; WIDTH: 100%; VERTICAL-ALIGN: top; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.bycontentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.byline {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.bylinecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.caption {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.cell {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.container {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contentfolder {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.contentitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.contentproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contentprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contents {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.contentsdate {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.contenttitle {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.continued {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; WIDTH: 100%; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.data {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: italic; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.dataempty {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datafixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: MingLiu, Courier, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrong {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.datastrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #ffffff
+}
+.date {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.document {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+A:link {
+	COLOR: #0000ff
+}
+A:visited {
+	COLOR: #800080
+}
+A:active {
+	COLOR: #800080
+}
+.errorbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.errorcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.errorcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.extendedpage {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 1pt solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #000000 1pt solid; BORDER-BOTTOM: #000000 1pt solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; TEXT-ALIGN: center; BORDER-LEFT: #000000 1pt solid; BACKGROUND-COLOR: #fafbfe
+}
+.fatalbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontent {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.fatalcontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.folderaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.footer {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.footerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.frame {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.graph {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.header {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headeremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headeremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headerempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headerfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.headersandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #edf2f9
+}
+.headerstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.headerstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #000000; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #d8dbd3
+}
+.heading1 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading2 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading3 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading4 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading5 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.heading6 {
+	FONT-FAMILY: HeiT, Helvetica, sans-serif
+}
+.index {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.indexaction {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.indexitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.indexprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.indextitle {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.layoutcontainer {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: #000000 0px solid
+}
+.layoutregion {
+	BORDER-TOP: #000000 0px solid; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; BORDER-SPACING: 30px; BORDER-LEFT: #000000 0px solid
+}
+.linecontent {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #c1c1c1 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.link {
+	COLOR: #0000ff
+}
+.list {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.list9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem {
+	LIST-STYLE-TYPE: disc; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem10 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem2 {
+	LIST-STYLE-TYPE: circle; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem3 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem4 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem5 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem6 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem7 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem8 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.listitem9 {
+	LIST-STYLE-TYPE: square; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.note {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notebanner {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notecontent {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.notecontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.output {
+	FONT-SIZE: x-small; BORDER-TOP: #c1c1c1 1px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #c1c1c1 1px solid; BORDER-COLLAPSE: separate; BORDER-BOTTOM: #c1c1c1 1px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #c1c1c1 1px solid; BACKGROUND-COLOR: #fafbfe
+}
+.pageno {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; VERTICAL-ALIGN: top; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; TEXT-ALIGN: right; BORDER-SPACING: 0px; BACKGROUND-COLOR: #fafbfe
+}
+.pages {
+	LIST-STYLE-TYPE: decimal; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 8px; BACKGROUND-COLOR: #fafbfe; MARGIN-RIGHT: 8px
+}
+.pagesdate {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; WIDTH: 100%; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagesitem {
+	LIST-STYLE-TYPE: none; FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; MARGIN-LEFT: 6pt
+}
+.pagesproclabel {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagesprocname {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.pagestitle {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: italic; BACKGROUND-COLOR: #fafbfe
+}
+.paragraph {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.parskip {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #000000 0px solid; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: bold; FONT-STYLE: normal; BORDER-SPACING: 0px; BORDER-LEFT: #000000 0px solid
+}
+.prepage {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; TEXT-ALIGN: left; BACKGROUND-COLOR: #fafbfe
+}
+.proctitle {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.proctitlefixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.rowfooter {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooteremphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooteremphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowfooterstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheader {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderemphasis {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderemphasisfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: italic; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderempty {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrong {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.rowheaderstrongfixed {
+	FONT-SIZE: x-small; BORDER-TOP: #b0b7bb 0px solid; FONT-FAMILY: MingLiu, Courier, monospace, sans-serif; BORDER-RIGHT: #b0b7bb 1px solid; BORDER-BOTTOM: #b0b7bb 1px solid; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BORDER-LEFT: #b0b7bb 0px solid; BACKGROUND-COLOR: #edf2f9
+}
+.systemfooter {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter10 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter2 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter3 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter4 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter5 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter6 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter7 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter8 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemfooter9 {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle10 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle2 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle3 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle4 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle5 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle6 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle7 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle8 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systemtitle9 {
+	FONT-SIZE: small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.systitleandfootercontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.table {
+	BORDER-TOP: #c1c1c1 1px solid; BORDER-RIGHT: #c1c1c1 0px solid; BORDER-COLLAPSE: collapse; BORDER-BOTTOM: #c1c1c1 0px solid; BORDER-SPACING: 0px; BORDER-LEFT: #c1c1c1 1px solid
+}
+.top_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 1px; BORDER-LEFT: 0px
+}
+.middle_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-BOTTOM: 1px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.bottom_stacked_value {
+	BORDER-TOP: 0px; BORDER-RIGHT: 0px; BORDER-BOTTOM: 0px; PADDING-TOP: 1px; BORDER-LEFT: 0px
+}
+.titleandnotecontainer {
+	FONT-SIZE: x-small; BORDER-TOP: #000000 0px solid; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; BORDER-RIGHT: #000000 0px solid; WIDTH: 100%; BORDER-BOTTOM: #000000 0px solid; FONT-WEIGHT: normal; COLOR: #000000; FONT-STYLE: normal; BORDER-SPACING: 1px; BORDER-LEFT: #000000 0px solid; BACKGROUND-COLOR: #fafbfe
+}
+.titlesandfooters {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.usertext {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.visitedlink {
+	COLOR: #800080
+}
+.warnbanner {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: bold; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.warncontent {
+	FONT-SIZE: x-small; FONT-FAMILY: HeiT, HeiT, Helvetica, Helv, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.warncontentfixed {
+	FONT-SIZE: x-small; FONT-FAMILY: MingLiu, Courier, sans-serif; FONT-WEIGHT: normal; COLOR: #112277; FONT-STYLE: normal; BACKGROUND-COLOR: #fafbfe
+}
+.l {
+	TEXT-ALIGN: left
+}
+.c {
+	TEXT-ALIGN: center
+}
+.r {
+	TEXT-ALIGN: right
+}
+.d {
+	TEXT-ALIGN: right
+}
+.j {
+	TEXT-ALIGN: justify
+}
+.t {
+	VERTICAL-ALIGN: top
+}
+.m {
+	VERTICAL-ALIGN: middle
+}
+.b {
+	VERTICAL-ALIGN: bottom
+}
+TD {
+	VERTICAL-ALIGN: top
+}
+TH {
+	VERTICAL-ALIGN: top
+}
+.stacked_cell {
+	PADDING-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px
+}
+</STYLE>
+
+<SCRIPT language=javascript type=text/javascript>
+<!-- 
+function startup(){
+
+}
+function shutdown(){
+
+}
+
+//-->
+</SCRIPT>
+</HEAD>
+<BODY class=body onload=startup() onunload=shutdown()>
+<SCRIPT language=javascript type=text/javascript>
+<!-- 
+var _info = navigator.userAgent
+var _ie = (_info.indexOf("MSIE") > 0
+          && _info.indexOf("Win") > 0
+          && _info.indexOf("Windows 3.1") < 0);
+var _ie64 = _info.indexOf("x64") > 0
+
+//-->
+</SCRIPT>
+
+<DIV class=branch><A name=IDX></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">SAS 系統</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">LOGISTIC 程序</DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 模型資訊" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=2 scope=colgroup>模型資訊</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>資料集</TH>
+    <TD class="l data">WORK.MHL</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>回應變數</TH>
+    <TD class="l data">will</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>回應水準的數目</TH>
+    <TD class="l data">3</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>模型</TH>
+    <TD class="l data">廣義對數優劣比</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>最佳化技術</TH>
+    <TD class="l data">Newton-Raphson</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX1></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 觀測值摘要" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>讀取的觀測值數目</TH>
+    <TD class="r data">145</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>使用的觀測值數目</TH>
+    <TD class="r data">145</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX2></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 回應設定檔" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=3 scope=colgroup>回應概況</TH></TR>
+  <TR>
+    <TH class="r b header" scope=col>已排序<BR>值</TH>
+    <TH class="l b header" scope=col>will</TH>
+    <TH class="r b header" scope=col>總<BR>次數</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="r rowheader" scope=row>1</TH>
+    <TD class="l data">Y</TD>
+    <TD class="r data">37</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>2</TH>
+    <TD class="l data">N</TD>
+    <TD class="r data">41</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>3</TH>
+    <TD class="l data">C</TD>
+    <TD class="r data">67</TD></TR></TBODY></TABLE></DIV><BR>
+<P>
+<DIV align=center>
+<TABLE class=proctitle>
+  <TBODY>
+  <TR>
+    <TD class="c proctitle">建立模型的對數優劣比使用 will='Y' 
+作為參考類別。</TD></TR></TBODY></TABLE></DIV>
+<P></P></DIV><BR><A name=IDX3></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 類別層級資訊" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=3 scope=colgroup>類別層級資訊</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>類別</TH>
+    <TH class="l b header" scope=col>值</TH>
+    <TH class="c b header" scope=col>設計變數</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>sex</TH>
+    <TH class="l rowheader" scope=row>F</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>M</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR></TBODY></TABLE></DIV></DIV><BR><A name=IDX4></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 收斂狀態" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" scope=col>模型收斂狀態</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD class="c data">偵測到資料點的準完整區隔。</TD></TR></TBODY></TABLE></DIV></DIV><BR><BR>
+<P>
+<DIV align=center>
+<TABLE class=warncontent>
+  <TBODY>
+  <TR>
+    <TD class="c warnbanner">Warning:</TD>
+    <TD class="l warncontent">The maximum likelihood estimate may not 
+  exist.</TD></TR></TBODY></TABLE></DIV>
+<P><BR>
+<P>
+<DIV align=left>
+<TABLE class=warncontent>
+  <TBODY>
+  <TR>
+    <TD class="l warnbanner">Warning:</TD>
+    <TD class="l warncontent">The LOGISTIC procedure continues in spite of the 
+      above warning. Results shown are based on the last maximum likelihood 
+      iteration. Validity of the model fit is 
+questionable.</TD></TR></TBODY></TABLE></DIV>
+<P><A name=IDX5></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 配適統計值" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=3 scope=colgroup>模型配適統計值</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>準則</TH>
+    <TH class="r b header" scope=col>僅截距</TH>
+    <TH class="r b header" scope=col>截距和共變量</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>AIC</TH>
+    <TD class="r data">312.103</TD>
+    <TD class="r data">303.324</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>SC</TH>
+    <TD class="r data">318.057</TD>
+    <TD class="r data">458.114</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>-2 對數 L</TH>
+    <TD class="r data">308.103</TD>
+    <TD class="r data">199.324</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX6></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 全域檢定" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=4 scope=colgroup>檢定全域虛無假設: BETA=0</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>檢定</TH>
+    <TH class="r b header" scope=col>卡方</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;ChiSq</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>概度比</TH>
+    <TD class="r data">108.7791</TD>
+    <TD class="r data">50</TD>
+    <TD class="r data">&lt;.0001</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>評分</TH>
+    <TD class="r data">83.7133</TD>
+    <TD class="r data">50</TD>
+    <TD class="r data">0.0020</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wald</TH>
+    <TD class="r data">42.9893</TD>
+    <TD class="r data">50</TD>
+    <TD class="r data">0.7483</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX7></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 類型 3 檢定" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=4 scope=colgroup>效果的第三型分析</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>效果</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Wald<BR>卡方</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;ChiSq</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>sex</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">5.3520</TD>
+    <TD class="r data">0.0688</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.1674</TD>
+    <TD class="r data">0.9197</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">3.1474</TD>
+    <TD class="r data">0.2073</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">5.7034</TD>
+    <TD class="r data">0.0577</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">7.4285</TD>
+    <TD class="r data">0.0244</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">2.5779</TD>
+    <TD class="r data">0.2756</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.7089</TD>
+    <TD class="r data">0.7016</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.4756</TD>
+    <TD class="r data">0.7884</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">3.3263</TD>
+    <TD class="r data">0.1895</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">5.0386</TD>
+    <TD class="r data">0.0805</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">6.7204</TD>
+    <TD class="r data">0.0347</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.6187</TD>
+    <TD class="r data">0.4451</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">2.2301</TD>
+    <TD class="r data">0.3279</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.4314</TD>
+    <TD class="r data">0.8060</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">2.5875</TD>
+    <TD class="r data">0.2742</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">4.8850</TD>
+    <TD class="r data">0.0869</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.2991</TD>
+    <TD class="r data">0.5223</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">9.5621</TD>
+    <TD class="r data">0.0084</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.6056</TD>
+    <TD class="r data">0.4481</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.3863</TD>
+    <TD class="r data">0.5000</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">3.7243</TD>
+    <TD class="r data">0.1553</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">7.7512</TD>
+    <TD class="r data">0.0207</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.0045</TD>
+    <TD class="r data">0.9978</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.0114</TD>
+    <TD class="r data">0.9943</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.3583</TD>
+    <TD class="r data">0.5070</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX8></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 參數估計值" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=8 scope=colgroup>最大概度估計值分析</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>參數</TH>
+    <TH class="l b header" scope=col>&nbsp;</TH>
+    <TH class="l b header" scope=col>will</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>估計值</TH>
+    <TH class="r b header" scope=col>標準<BR>誤差</TH>
+    <TH class="r b header" scope=col>Wald<BR>卡方</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;ChiSq</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">4.4533</TD>
+    <TD class="r data">2.6885</TD>
+    <TD class="r data">2.7438</TD>
+    <TD class="r data">0.0976</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">4.9342</TD>
+    <TD class="r data">2.2603</TD>
+    <TD class="r data">4.7656</TD>
+    <TD class="r data">0.0290</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sex</TH>
+    <TH class="l rowheader" scope=row>M</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-2.0144</TD>
+    <TD class="r data">0.9154</TD>
+    <TD class="r data">4.8429</TD>
+    <TD class="r data">0.0278</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sex</TH>
+    <TH class="l rowheader" scope=row>M</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.4527</TD>
+    <TD class="r data">0.7180</TD>
+    <TD class="r data">4.0935</TD>
+    <TD class="r data">0.0430</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.0525</TD>
+    <TD class="r data">0.3444</TD>
+    <TD class="r data">0.0232</TD>
+    <TD class="r data">0.8788</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.0995</TD>
+    <TD class="r data">0.2550</TD>
+    <TD class="r data">0.1524</TD>
+    <TD class="r data">0.6962</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">2.9657</TD>
+    <TD class="r data">1.6717</TD>
+    <TD class="r data">3.1470</TD>
+    <TD class="r data">0.0761</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.1079</TD>
+    <TD class="r data">1.1566</TD>
+    <TD class="r data">0.9174</TD>
+    <TD class="r data">0.3381</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.9167</TD>
+    <TD class="r data">0.3901</TD>
+    <TD class="r data">5.5222</TD>
+    <TD class="r data">0.0188</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.4573</TD>
+    <TD class="r data">0.2680</TD>
+    <TD class="r data">2.9102</TD>
+    <TD class="r data">0.0880</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.2738</TD>
+    <TD class="r data">0.5409</TD>
+    <TD class="r data">5.5460</TD>
+    <TD class="r data">0.0185</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.1147</TD>
+    <TD class="r data">0.4031</TD>
+    <TD class="r data">0.0810</TD>
+    <TD class="r data">0.7759</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.4246</TD>
+    <TD class="r data">0.5847</TD>
+    <TD class="r data">0.5275</TD>
+    <TD class="r data">0.4677</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.3140</TD>
+    <TD class="r data">0.4650</TD>
+    <TD class="r data">0.4558</TD>
+    <TD class="r data">0.4996</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.5042</TD>
+    <TD class="r data">0.6315</TD>
+    <TD class="r data">0.6375</TD>
+    <TD class="r data">0.4246</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.1835</TD>
+    <TD class="r data">0.5089</TD>
+    <TD class="r data">0.1300</TD>
+    <TD class="r data">0.7184</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.4584</TD>
+    <TD class="r data">0.6868</TD>
+    <TD class="r data">0.4455</TD>
+    <TD class="r data">0.5045</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.1558</TD>
+    <TD class="r data">0.5096</TD>
+    <TD class="r data">0.0935</TD>
+    <TD class="r data">0.7598</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.2606</TD>
+    <TD class="r data">0.6914</TD>
+    <TD class="r data">3.3244</TD>
+    <TD class="r data">0.0683</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.5594</TD>
+    <TD class="r data">0.4866</TD>
+    <TD class="r data">1.3215</TD>
+    <TD class="r data">0.2503</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-3.7854</TD>
+    <TD class="r data">1.7160</TD>
+    <TD class="r data">4.8663</TD>
+    <TD class="r data">0.0274</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.4231</TD>
+    <TD class="r data">1.0062</TD>
+    <TD class="r data">2.0005</TD>
+    <TD class="r data">0.1572</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-2.2236</TD>
+    <TD class="r data">0.8591</TD>
+    <TD class="r data">6.6989</TD>
+    <TD class="r data">0.0096</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.4781</TD>
+    <TD class="r data">0.7376</TD>
+    <TD class="r data">4.0165</TD>
+    <TD class="r data">0.0451</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.2397</TD>
+    <TD class="r data">1.1204</TD>
+    <TD class="r data">1.2243</TD>
+    <TD class="r data">0.2685</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.0779</TD>
+    <TD class="r data">0.7768</TD>
+    <TD class="r data">0.0101</TD>
+    <TD class="r data">0.9201</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.6532</TD>
+    <TD class="r data">2.7747</TD>
+    <TD class="r data">0.3550</TD>
+    <TD class="r data">0.5513</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.0818</TD>
+    <TD class="r data">2.1766</TD>
+    <TD class="r data">0.2470</TD>
+    <TD class="r data">0.6192</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.4718</TD>
+    <TD class="r data">2.2706</TD>
+    <TD class="r data">0.4202</TD>
+    <TD class="r data">0.5169</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.9540</TD>
+    <TD class="r data">1.7762</TD>
+    <TD class="r data">0.2885</TD>
+    <TD class="r data">0.5912</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.8544</TD>
+    <TD class="r data">1.5540</TD>
+    <TD class="r data">1.4241</TD>
+    <TD class="r data">0.2327</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.3065</TD>
+    <TD class="r data">0.9181</TD>
+    <TD class="r data">2.0249</TD>
+    <TD class="r data">0.1547</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.1674</TD>
+    <TD class="r data">0.8785</TD>
+    <TD class="r data">0.0363</TD>
+    <TD class="r data">0.8489</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.1299</TD>
+    <TD class="r data">0.6899</TD>
+    <TD class="r data">2.6817</TD>
+    <TD class="r data">0.1015</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.9696</TD>
+    <TD class="r data">0.8799</TD>
+    <TD class="r data">1.2143</TD>
+    <TD class="r data">0.2705</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.6256</TD>
+    <TD class="r data">0.6637</TD>
+    <TD class="r data">0.8884</TD>
+    <TD class="r data">0.3459</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">3.0345</TD>
+    <TD class="r data">0.9948</TD>
+    <TD class="r data">9.3056</TD>
+    <TD class="r data">0.0023</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.0651</TD>
+    <TD class="r data">0.7372</TD>
+    <TD class="r data">2.0875</TD>
+    <TD class="r data">0.1485</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">12.8293</TD>
+    <TD class="r data">83.5886</TD>
+    <TD class="r data">0.0236</TD>
+    <TD class="r data">0.8780</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">11.3789</TD>
+    <TD class="r data">83.5822</TD>
+    <TD class="r data">0.0185</TD>
+    <TD class="r data">0.8917</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.9560</TD>
+    <TD class="r data">2.1865</TD>
+    <TD class="r data">0.8003</TD>
+    <TD class="r data">0.3710</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.6777</TD>
+    <TD class="r data">2.0251</TD>
+    <TD class="r data">0.1120</TD>
+    <TD class="r data">0.7379</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.1499</TD>
+    <TD class="r data">0.7572</TD>
+    <TD class="r data">2.3065</TD>
+    <TD class="r data">0.1288</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.00108</TD>
+    <TD class="r data">0.5839</TD>
+    <TD class="r data">0.0000</TD>
+    <TD class="r data">0.9985</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-2.5240</TD>
+    <TD class="r data">0.9096</TD>
+    <TD class="r data">7.6997</TD>
+    <TD class="r data">0.0055</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.2959</TD>
+    <TD class="r data">0.6820</TD>
+    <TD class="r data">3.6105</TD>
+    <TD class="r data">0.0574</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">8.2584</TD>
+    <TD class="r data">147.1</TD>
+    <TD class="r data">0.0032</TD>
+    <TD class="r data">0.9552</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-4.2257</TD>
+    <TD class="r data">366.7</TD>
+    <TD class="r data">0.0001</TD>
+    <TD class="r data">0.9908</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-18.0719</TD>
+    <TD class="r data">169.1</TD>
+    <TD class="r data">0.0114</TD>
+    <TD class="r data">0.9149</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-16.7256</TD>
+    <TD class="r data">403.5</TD>
+    <TD class="r data">0.0017</TD>
+    <TD class="r data">0.9669</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.0084</TD>
+    <TD class="r data">1.1729</TD>
+    <TD class="r data">0.7391</TD>
+    <TD class="r data">0.3900</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.1619</TD>
+    <TD class="r data">1.0198</TD>
+    <TD class="r data">0.0252</TD>
+    <TD class="r data">0.8738</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX9></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 勝算比" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=5 scope=colgroup>勝算比估計值</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>效果</TH>
+    <TH class="l b header" scope=col>will</TH>
+    <TH class="r b header" scope=col>點估計值</TH>
+    <TH class="c b header" colSpan=2 scope=colgroup>95% 
+  Wald<BR>信賴界限</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>sex M 與 F</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.133</TD>
+    <TD class="r data">0.022</TD>
+    <TD class="r data">0.802</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sex M 與 F</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.234</TD>
+    <TD class="r data">0.057</TD>
+    <TD class="r data">0.956</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1.054</TD>
+    <TD class="r data">0.537</TD>
+    <TD class="r data">2.070</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1.105</TD>
+    <TD class="r data">0.670</TD>
+    <TD class="r data">1.821</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff Y 與 N</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">19.407</TD>
+    <TD class="r data">0.733</TD>
+    <TD class="r data">513.990</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff Y 與 N</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">3.028</TD>
+    <TD class="r data">0.314</TD>
+    <TD class="r data">29.220</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.400</TD>
+    <TD class="r data">0.186</TD>
+    <TD class="r data">0.859</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.633</TD>
+    <TD class="r data">0.374</TD>
+    <TD class="r data">1.070</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">3.574</TD>
+    <TD class="r data">1.238</TD>
+    <TD class="r data">10.319</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1.122</TD>
+    <TD class="r data">0.509</TD>
+    <TD class="r data">2.471</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1.529</TD>
+    <TD class="r data">0.486</TD>
+    <TD class="r data">4.809</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.731</TD>
+    <TD class="r data">0.294</TD>
+    <TD class="r data">1.817</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.604</TD>
+    <TD class="r data">0.175</TD>
+    <TD class="r data">2.082</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.832</TD>
+    <TD class="r data">0.307</TD>
+    <TD class="r data">2.257</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1.582</TD>
+    <TD class="r data">0.412</TD>
+    <TD class="r data">6.077</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1.169</TD>
+    <TD class="r data">0.430</TD>
+    <TD class="r data">3.173</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.283</TD>
+    <TD class="r data">0.073</TD>
+    <TD class="r data">1.099</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.572</TD>
+    <TD class="r data">0.220</TD>
+    <TD class="r data">1.483</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.023</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">0.656</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.241</TD>
+    <TD class="r data">0.034</TD>
+    <TD class="r data">1.731</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.108</TD>
+    <TD class="r data">0.020</TD>
+    <TD class="r data">0.583</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.228</TD>
+    <TD class="r data">0.054</TD>
+    <TD class="r data">0.968</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.289</TD>
+    <TD class="r data">0.032</TD>
+    <TD class="r data">2.602</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.925</TD>
+    <TD class="r data">0.202</TD>
+    <TD class="r data">4.240</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.191</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">44.042</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">2.950</TD>
+    <TD class="r data">0.041</TD>
+    <TD class="r data">210.165</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.230</TD>
+    <TD class="r data">0.003</TD>
+    <TD class="r data">19.657</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.385</TD>
+    <TD class="r data">0.012</TD>
+    <TD class="r data">12.520</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.157</TD>
+    <TD class="r data">0.007</TD>
+    <TD class="r data">3.291</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.271</TD>
+    <TD class="r data">0.045</TD>
+    <TD class="r data">1.637</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.846</TD>
+    <TD class="r data">0.151</TD>
+    <TD class="r data">4.733</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">3.095</TD>
+    <TD class="r data">0.801</TD>
+    <TD class="r data">11.967</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.379</TD>
+    <TD class="r data">0.068</TD>
+    <TD class="r data">2.128</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.535</TD>
+    <TD class="r data">0.146</TD>
+    <TD class="r data">1.965</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">20.791</TD>
+    <TD class="r data">2.959</TD>
+    <TD class="r data">146.091</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">2.901</TD>
+    <TD class="r data">0.684</TD>
+    <TD class="r data">12.303</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">&gt;999.999</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">&gt;999.999</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">7.071</TD>
+    <TD class="r data">0.097</TD>
+    <TD class="r data">513.607</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1.969</TD>
+    <TD class="r data">0.037</TD>
+    <TD class="r data">104.257</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">3.158</TD>
+    <TD class="r data">0.716</TD>
+    <TD class="r data">13.929</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.999</TD>
+    <TD class="r data">0.318</TD>
+    <TD class="r data">3.137</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.080</TD>
+    <TD class="r data">0.013</TD>
+    <TD class="r data">0.477</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.274</TD>
+    <TD class="r data">0.072</TD>
+    <TD class="r data">1.042</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">&gt;999.999</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">0.015</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">2.741</TD>
+    <TD class="r data">0.275</TD>
+    <TD class="r data">27.311</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond 1 與 0</TH>
+    <TH class="l rowheader" scope=row>C</TH>
+    <TD class="r data">1.176</TD>
+    <TD class="r data">0.159</TD>
+    <TD class="r data">8.678</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV>
+<DIV class=branch>
+<P style="PAGE-BREAK-AFTER: always"><BR></P>
+<HR SIZE=3>
+<A name=IDX10></A>
+<TABLE class=systitleandfootercontainer cellSpacing=1 cellPadding=1 rules=none 
+width="100%" summary="Page Layout" border=0 frame=void>
+  <TBODY>
+  <TR>
+    <TD class="c systemtitle">SAS 系統</TD></TR></TBODY></TABLE><BR>
+<DIV class="c proctitle">LOGISTIC 程序</DIV>
+<P>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 模型資訊" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=2 scope=colgroup>模型資訊</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>資料集</TH>
+    <TD class="l data">WORK.MHL</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>回應變數</TH>
+    <TD class="l data">will</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>回應水準的數目</TH>
+    <TD class="l data">3</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>模型</TH>
+    <TD class="l data">廣義對數優劣比</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>最佳化技術</TH>
+    <TD class="l data">Newton-Raphson</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX11></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 觀測值摘要" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>讀取的觀測值數目</TH>
+    <TD class="r data">145</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>使用的觀測值數目</TH>
+    <TD class="r data">145</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX12></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 回應設定檔" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=3 scope=colgroup>回應概況</TH></TR>
+  <TR>
+    <TH class="r b header" scope=col>已排序<BR>值</TH>
+    <TH class="l b header" scope=col>will</TH>
+    <TH class="r b header" scope=col>總<BR>次數</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="r rowheader" scope=row>1</TH>
+    <TD class="l data">Y</TD>
+    <TD class="r data">37</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>2</TH>
+    <TD class="l data">N</TD>
+    <TD class="r data">41</TD></TR>
+  <TR>
+    <TH class="r rowheader" scope=row>3</TH>
+    <TD class="l data">C</TD>
+    <TD class="r data">67</TD></TR></TBODY></TABLE></DIV><BR>
+<P>
+<DIV align=center>
+<TABLE class=proctitle>
+  <TBODY>
+  <TR>
+    <TD class="c proctitle">建立模型的對數優劣比使用 will='C' 
+作為參考類別。</TD></TR></TBODY></TABLE></DIV>
+<P></P></DIV><BR><A name=IDX13></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 類別層級資訊" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=3 scope=colgroup>類別層級資訊</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>類別</TH>
+    <TH class="l b header" scope=col>值</TH>
+    <TH class="c b header" scope=col>設計變數</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>sex</TH>
+    <TH class="l rowheader" scope=row>F</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>M</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond</TH>
+    <TH class="l rowheader" scope=row>0</TH>
+    <TD class="r data">0</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TD class="r data">1</TD></TR></TBODY></TABLE></DIV></DIV><BR><A name=IDX14></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 收斂狀態" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" scope=col>模型收斂狀態</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TD class="c data">偵測到資料點的準完整區隔。</TD></TR></TBODY></TABLE></DIV></DIV><BR><BR>
+<P>
+<DIV align=center>
+<TABLE class=warncontent>
+  <TBODY>
+  <TR>
+    <TD class="c warnbanner">Warning:</TD>
+    <TD class="l warncontent">The maximum likelihood estimate may not 
+  exist.</TD></TR></TBODY></TABLE></DIV>
+<P><BR>
+<P>
+<DIV align=left>
+<TABLE class=warncontent>
+  <TBODY>
+  <TR>
+    <TD class="l warnbanner">Warning:</TD>
+    <TD class="l warncontent">The LOGISTIC procedure continues in spite of the 
+      above warning. Results shown are based on the last maximum likelihood 
+      iteration. Validity of the model fit is 
+questionable.</TD></TR></TBODY></TABLE></DIV>
+<P><A name=IDX15></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 配適統計值" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=3 scope=colgroup>模型配適統計值</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>準則</TH>
+    <TH class="r b header" scope=col>僅截距</TH>
+    <TH class="r b header" scope=col>截距和共變量</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>AIC</TH>
+    <TD class="r data">312.103</TD>
+    <TD class="r data">303.324</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>SC</TH>
+    <TD class="r data">318.057</TD>
+    <TD class="r data">458.114</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>-2 對數 L</TH>
+    <TD class="r data">308.103</TD>
+    <TD class="r data">199.324</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX16></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 全域檢定" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=4 scope=colgroup>檢定全域虛無假設: BETA=0</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>檢定</TH>
+    <TH class="r b header" scope=col>卡方</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;ChiSq</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>概度比</TH>
+    <TD class="r data">108.7791</TD>
+    <TD class="r data">50</TD>
+    <TD class="r data">&lt;.0001</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>評分</TH>
+    <TD class="r data">83.7133</TD>
+    <TD class="r data">50</TD>
+    <TD class="r data">0.0020</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wald</TH>
+    <TD class="r data">42.9893</TD>
+    <TD class="r data">50</TD>
+    <TD class="r data">0.7483</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX17></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 類型 3 檢定" frame=box>
+  <COLGROUP>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=4 scope=colgroup>效果的第三型分析</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>效果</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>Wald<BR>卡方</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;ChiSq</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>sex</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">5.3520</TD>
+    <TD class="r data">0.0688</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.1674</TD>
+    <TD class="r data">0.9197</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">3.1474</TD>
+    <TD class="r data">0.2073</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">5.7034</TD>
+    <TD class="r data">0.0577</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">7.4285</TD>
+    <TD class="r data">0.0244</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">2.5779</TD>
+    <TD class="r data">0.2756</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.7089</TD>
+    <TD class="r data">0.7016</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.4756</TD>
+    <TD class="r data">0.7884</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">3.3263</TD>
+    <TD class="r data">0.1895</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">5.0386</TD>
+    <TD class="r data">0.0805</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">6.7204</TD>
+    <TD class="r data">0.0347</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.6187</TD>
+    <TD class="r data">0.4451</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">2.2301</TD>
+    <TD class="r data">0.3279</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.4314</TD>
+    <TD class="r data">0.8060</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">2.5875</TD>
+    <TD class="r data">0.2742</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">4.8850</TD>
+    <TD class="r data">0.0869</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.2991</TD>
+    <TD class="r data">0.5223</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">9.5621</TD>
+    <TD class="r data">0.0084</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.6056</TD>
+    <TD class="r data">0.4481</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.3863</TD>
+    <TD class="r data">0.5000</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">3.7243</TD>
+    <TD class="r data">0.1553</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">7.7512</TD>
+    <TD class="r data">0.0207</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.0045</TD>
+    <TD class="r data">0.9978</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">0.0114</TD>
+    <TD class="r data">0.9943</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond</TH>
+    <TD class="r data">2</TD>
+    <TD class="r data">1.3583</TD>
+    <TD class="r data">0.5070</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX18></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 參數估計值" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=8 scope=colgroup>最大概度估計值分析</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>參數</TH>
+    <TH class="l b header" scope=col>&nbsp;</TH>
+    <TH class="l b header" scope=col>will</TH>
+    <TH class="r b header" scope=col>DF</TH>
+    <TH class="r b header" scope=col>估計值</TH>
+    <TH class="r b header" scope=col>標準<BR>誤差</TH>
+    <TH class="r b header" scope=col>Wald<BR>卡方</TH>
+    <TH class="r b header" scope=col>Pr&nbsp;&gt;&nbsp;ChiSq</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-4.9342</TD>
+    <TD class="r data">2.2603</TD>
+    <TD class="r data">4.7656</TD>
+    <TD class="r data">0.0290</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Intercept</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.4809</TD>
+    <TD class="r data">1.7744</TD>
+    <TD class="r data">0.0735</TD>
+    <TD class="r data">0.7864</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sex</TH>
+    <TH class="l rowheader" scope=row>M</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.4527</TD>
+    <TD class="r data">0.7180</TD>
+    <TD class="r data">4.0935</TD>
+    <TD class="r data">0.0430</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sex</TH>
+    <TH class="l rowheader" scope=row>M</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.5617</TD>
+    <TD class="r data">0.6756</TD>
+    <TD class="r data">0.6911</TD>
+    <TD class="r data">0.4058</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.0995</TD>
+    <TD class="r data">0.2550</TD>
+    <TD class="r data">0.1524</TD>
+    <TD class="r data">0.6962</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.0470</TD>
+    <TD class="r data">0.2691</TD>
+    <TD class="r data">0.0305</TD>
+    <TD class="r data">0.8613</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.1079</TD>
+    <TD class="r data">1.1566</TD>
+    <TD class="r data">0.9174</TD>
+    <TD class="r data">0.3381</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.8578</TD>
+    <TD class="r data">1.4174</TD>
+    <TD class="r data">1.7178</TD>
+    <TD class="r data">0.1900</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.4573</TD>
+    <TD class="r data">0.2680</TD>
+    <TD class="r data">2.9102</TD>
+    <TD class="r data">0.0880</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.4594</TD>
+    <TD class="r data">0.3211</TD>
+    <TD class="r data">2.0466</TD>
+    <TD class="r data">0.1525</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.1147</TD>
+    <TD class="r data">0.4031</TD>
+    <TD class="r data">0.0810</TD>
+    <TD class="r data">0.7759</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.1591</TD>
+    <TD class="r data">0.4443</TD>
+    <TD class="r data">6.8062</TD>
+    <TD class="r data">0.0091</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.3140</TD>
+    <TD class="r data">0.4650</TD>
+    <TD class="r data">0.4558</TD>
+    <TD class="r data">0.4996</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.7386</TD>
+    <TD class="r data">0.4707</TD>
+    <TD class="r data">2.4626</TD>
+    <TD class="r data">0.1166</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.1835</TD>
+    <TD class="r data">0.5089</TD>
+    <TD class="r data">0.1300</TD>
+    <TD class="r data">0.7184</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.3207</TD>
+    <TD class="r data">0.4609</TD>
+    <TD class="r data">0.4841</TD>
+    <TD class="r data">0.4866</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.1558</TD>
+    <TD class="r data">0.5096</TD>
+    <TD class="r data">0.0935</TD>
+    <TD class="r data">0.7598</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.3026</TD>
+    <TD class="r data">0.5228</TD>
+    <TD class="r data">0.3351</TD>
+    <TD class="r data">0.5627</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.5594</TD>
+    <TD class="r data">0.4866</TD>
+    <TD class="r data">1.3215</TD>
+    <TD class="r data">0.2503</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TH class="l rowheader" scope=row>&nbsp;</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.7012</TD>
+    <TD class="r data">0.5505</TD>
+    <TD class="r data">1.6224</TD>
+    <TD class="r data">0.2028</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.4231</TD>
+    <TD class="r data">1.0062</TD>
+    <TD class="r data">2.0005</TD>
+    <TD class="r data">0.1572</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-2.3622</TD>
+    <TD class="r data">1.5213</TD>
+    <TD class="r data">2.4110</TD>
+    <TD class="r data">0.1205</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.4781</TD>
+    <TD class="r data">0.7376</TD>
+    <TD class="r data">4.0165</TD>
+    <TD class="r data">0.0451</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.7455</TD>
+    <TD class="r data">0.5911</TD>
+    <TD class="r data">1.5907</TD>
+    <TD class="r data">0.2072</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.0779</TD>
+    <TD class="r data">0.7768</TD>
+    <TD class="r data">0.0101</TD>
+    <TD class="r data">0.9201</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.1618</TD>
+    <TD class="r data">0.9396</TD>
+    <TD class="r data">1.5289</TD>
+    <TD class="r data">0.2163</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.0818</TD>
+    <TD class="r data">2.1766</TD>
+    <TD class="r data">0.2470</TD>
+    <TD class="r data">0.6192</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-2.7350</TD>
+    <TD class="r data">1.8963</TD>
+    <TD class="r data">2.0801</TD>
+    <TD class="r data">0.1492</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.9540</TD>
+    <TD class="r data">1.7762</TD>
+    <TD class="r data">0.2885</TD>
+    <TD class="r data">0.5912</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.5178</TD>
+    <TD class="r data">1.5975</TD>
+    <TD class="r data">0.1050</TD>
+    <TD class="r data">0.7459</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.3065</TD>
+    <TD class="r data">0.9181</TD>
+    <TD class="r data">2.0249</TD>
+    <TD class="r data">0.1547</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.5479</TD>
+    <TD class="r data">1.5091</TD>
+    <TD class="r data">0.1318</TD>
+    <TD class="r data">0.7165</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.1299</TD>
+    <TD class="r data">0.6899</TD>
+    <TD class="r data">2.6817</TD>
+    <TD class="r data">0.1015</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.2973</TD>
+    <TD class="r data">0.7171</TD>
+    <TD class="r data">3.2730</TD>
+    <TD class="r data">0.0704</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.6256</TD>
+    <TD class="r data">0.6637</TD>
+    <TD class="r data">0.8884</TD>
+    <TD class="r data">0.3459</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.3441</TD>
+    <TD class="r data">0.6699</TD>
+    <TD class="r data">0.2639</TD>
+    <TD class="r data">0.6075</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.0651</TD>
+    <TD class="r data">0.7372</TD>
+    <TD class="r data">2.0875</TD>
+    <TD class="r data">0.1485</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.9695</TD>
+    <TD class="r data">0.8029</TD>
+    <TD class="r data">6.0172</TD>
+    <TD class="r data">0.0142</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-11.3789</TD>
+    <TD class="r data">83.5822</TD>
+    <TD class="r data">0.0185</TD>
+    <TD class="r data">0.8917</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.4504</TD>
+    <TD class="r data">1.1515</TD>
+    <TD class="r data">1.5866</TD>
+    <TD class="r data">0.2078</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.6777</TD>
+    <TD class="r data">2.0251</TD>
+    <TD class="r data">0.1120</TD>
+    <TD class="r data">0.7379</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.2783</TD>
+    <TD class="r data">1.2038</TD>
+    <TD class="r data">1.1276</TD>
+    <TD class="r data">0.2883</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.00108</TD>
+    <TD class="r data">0.5839</TD>
+    <TD class="r data">0.0000</TD>
+    <TD class="r data">0.9985</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.1510</TD>
+    <TD class="r data">0.6077</TD>
+    <TD class="r data">3.5870</TD>
+    <TD class="r data">0.0582</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">1.2959</TD>
+    <TD class="r data">0.6820</TD>
+    <TD class="r data">3.6105</TD>
+    <TD class="r data">0.0574</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.2281</TD>
+    <TD class="r data">0.7228</TD>
+    <TD class="r data">2.8866</TD>
+    <TD class="r data">0.0893</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">4.2257</TD>
+    <TD class="r data">366.7</TD>
+    <TD class="r data">0.0001</TD>
+    <TD class="r data">0.9908</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">12.4841</TD>
+    <TD class="r data">336.9</TD>
+    <TD class="r data">0.0014</TD>
+    <TD class="r data">0.9704</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">16.7256</TD>
+    <TD class="r data">403.5</TD>
+    <TD class="r data">0.0017</TD>
+    <TD class="r data">0.9669</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-1.3464</TD>
+    <TD class="r data">367.7</TD>
+    <TD class="r data">0.0000</TD>
+    <TD class="r data">0.9971</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data" noWrap>-0.1619</TD>
+    <TD class="r data">1.0198</TD>
+    <TD class="r data">0.0252</TD>
+    <TD class="r data">0.8738</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond</TH>
+    <TH class="l rowheader" scope=row>1</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1</TD>
+    <TD class="r data">0.8464</TD>
+    <TD class="r data">0.7584</TD>
+    <TD class="r data">1.2457</TD>
+    <TD class="r data">0.2644</TD></TR></TBODY></TABLE></DIV></DIV><BR><A 
+name=IDX19></A>
+<DIV>
+<DIV align=center>
+<TABLE class=table borderColor=#c1c1c1 cellSpacing=0 cellPadding=5 rules=all 
+summary="Procedure Logistic: 勝算比" frame=box>
+  <COLGROUP>
+  <COL>
+  <COL></COLGROUP>
+  <COLGROUP>
+  <COL>
+  <COL>
+  <COL></COLGROUP>
+  <THEAD>
+  <TR>
+    <TH class="c b header" colSpan=5 scope=colgroup>勝算比估計值</TH></TR>
+  <TR>
+    <TH class="l b header" scope=col>效果</TH>
+    <TH class="l b header" scope=col>will</TH>
+    <TH class="r b header" scope=col>點估計值</TH>
+    <TH class="c b header" colSpan=2 scope=colgroup>95% 
+  Wald<BR>信賴界限</TH></TR></THEAD>
+  <TBODY>
+  <TR>
+    <TH class="l rowheader" scope=row>sex M 與 F</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">4.275</TD>
+    <TD class="r data">1.046</TD>
+    <TD class="r data">17.463</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>sex M 與 F</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.570</TD>
+    <TD class="r data">0.152</TD>
+    <TD class="r data">2.144</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.905</TD>
+    <TD class="r data">0.549</TD>
+    <TD class="r data">1.492</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>edu</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.954</TD>
+    <TD class="r data">0.563</TD>
+    <TD class="r data">1.617</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff Y 與 N</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.330</TD>
+    <TD class="r data">0.034</TD>
+    <TD class="r data">3.187</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>stff Y 與 N</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">6.409</TD>
+    <TD class="r data">0.398</TD>
+    <TD class="r data">103.124</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1.580</TD>
+    <TD class="r data">0.934</TD>
+    <TD class="r data">2.672</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>flu</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.632</TD>
+    <TD class="r data">0.337</TD>
+    <TD class="r data">1.185</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.892</TD>
+    <TD class="r data">0.405</TD>
+    <TD class="r data">1.965</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>frnd</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">3.187</TD>
+    <TD class="r data">1.334</TD>
+    <TD class="r data">7.613</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1.369</TD>
+    <TD class="r data">0.550</TD>
+    <TD class="r data">3.405</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>dctr</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">2.093</TD>
+    <TD class="r data">0.832</TD>
+    <TD class="r data">5.265</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1.201</TD>
+    <TD class="r data">0.443</TD>
+    <TD class="r data">3.258</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>ofcl</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.726</TD>
+    <TD class="r data">0.294</TD>
+    <TD class="r data">1.791</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.856</TD>
+    <TD class="r data">0.315</TD>
+    <TD class="r data">2.323</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>news</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">1.353</TD>
+    <TD class="r data">0.486</TD>
+    <TD class="r data">3.771</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1.750</TD>
+    <TD class="r data">0.674</TD>
+    <TD class="r data">4.541</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>mdia</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.496</TD>
+    <TD class="r data">0.169</TD>
+    <TD class="r data">1.459</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">4.150</TD>
+    <TD class="r data">0.578</TD>
+    <TD class="r data">29.821</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AZ 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.094</TD>
+    <TD class="r data">0.005</TD>
+    <TD class="r data">1.858</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">4.385</TD>
+    <TD class="r data">1.033</TD>
+    <TD class="r data">18.610</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>PZ 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.475</TD>
+    <TD class="r data">0.149</TD>
+    <TD class="r data">1.511</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1.081</TD>
+    <TD class="r data">0.236</TD>
+    <TD class="r data">4.955</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>MD 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.313</TD>
+    <TD class="r data">0.050</TD>
+    <TD class="r data">1.973</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.339</TD>
+    <TD class="r data">0.005</TD>
+    <TD class="r data">24.149</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>LY 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.065</TD>
+    <TD class="r data">0.002</TD>
+    <TD class="r data">2.669</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">2.596</TD>
+    <TD class="r data">0.080</TD>
+    <TD class="r data">84.385</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GT 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.596</TD>
+    <TD class="r data">0.026</TD>
+    <TD class="r data">13.644</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">3.693</TD>
+    <TD class="r data">0.611</TD>
+    <TD class="r data">22.331</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>GG 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.578</TD>
+    <TD class="r data">0.030</TD>
+    <TD class="r data">11.132</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.323</TD>
+    <TD class="r data">0.084</TD>
+    <TD class="r data">1.249</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>AdEv 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.273</TD>
+    <TD class="r data">0.067</TD>
+    <TD class="r data">1.114</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1.869</TD>
+    <TD class="r data">0.509</TD>
+    <TD class="r data">6.864</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>HpSn 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.709</TD>
+    <TD class="r data">0.191</TD>
+    <TD class="r data">2.635</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.345</TD>
+    <TD class="r data">0.081</TD>
+    <TD class="r data">1.462</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Epdm 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">7.167</TD>
+    <TD class="r data">1.486</TD>
+    <TD class="r data">34.574</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Risk 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">4.265</TD>
+    <TD class="r data">0.446</TD>
+    <TD class="r data">40.746</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.508</TD>
+    <TD class="r data">0.010</TD>
+    <TD class="r data">26.880</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Bnft 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">3.590</TD>
+    <TD class="r data">0.339</TD>
+    <TD class="r data">38.001</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">1.001</TD>
+    <TD class="r data">0.319</TD>
+    <TD class="r data">3.144</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Wait 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">3.161</TD>
+    <TD class="r data">0.961</TD>
+    <TD class="r data">10.404</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">3.654</TD>
+    <TD class="r data">0.960</TD>
+    <TD class="r data">13.910</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Need 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.293</TD>
+    <TD class="r data">0.071</TD>
+    <TD class="r data">1.208</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">68.422</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>NoNd 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">&gt;999.999</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">&gt;999.999</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Rlgn 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">0.260</TD>
+    <TD class="r data">&lt;0.001</TD>
+    <TD class="r data">&gt;999.999</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond 1 與 0</TH>
+    <TH class="l rowheader" scope=row>Y</TH>
+    <TD class="r data">0.850</TD>
+    <TD class="r data">0.115</TD>
+    <TD class="r data">6.277</TD></TR>
+  <TR>
+    <TH class="l rowheader" scope=row>Cond 1 與 0</TH>
+    <TH class="l rowheader" scope=row>N</TH>
+    <TD class="r data">2.331</TD>
+    <TD class="r data">0.527</TD>
+    <TD 
+class="r data">10.307</TD></TR></TBODY></TABLE></DIV></DIV><BR></DIV></BODY></HTML>
